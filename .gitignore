@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore image dataset
+OriginalDataset/
+*.jpg
+*.png
+*.jpeg
+
 # Distribution / packaging
 .Python
 build/

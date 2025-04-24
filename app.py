@@ -39,7 +39,7 @@ page = st.sidebar.selectbox("📄 Navigate", ["🏠 Welcome", "🔐 Login", "�
 # Welcome Screen
 if page == "🏠 Welcome":
     st.title("🧠 Alzheimer's Detection using MRI")
-    st.image("assets/background.jpg", use_column_width=True)
+    st.image("assets/background.jpg", use_container_width=True)
     st.markdown("""
     ### Vision Transformer Ensemble-based Classifier  
     Upload brain MRI images to detect the stage of Alzheimer's.  
